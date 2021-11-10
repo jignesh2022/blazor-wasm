@@ -1,0 +1,12 @@
+2021-10-06 22:52:34.8288|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-10-06 22:52:34.8477|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-10-06 22:52:34.8477|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-10-06 22:52:56.7385|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-10-06 22:54:12.1603|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-10-06 22:54:19.1207|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-10-06 22:55:15.9532|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-10-06 22:55:34.0892|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-10-06 22:56:36.3697|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-10-06 22:56:50.3608|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-10-06 22:58:08.7236|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-10-06 23:00:50.6781|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...

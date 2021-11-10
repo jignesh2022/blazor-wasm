@@ -1,0 +1,284 @@
+2021-08-25 10:11:11.9726|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 10:11:12.0008|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 10:11:12.0008|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 10:13:19.5917|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 10:13:19.6129|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 10:13:19.6129|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 10:15:21.7374|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 10:15:21.7593|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 10:15:21.7593|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 10:15:51.6327|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 10:18:26.4230|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 10:24:01.5311|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 10:25:55.9018|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 10:25:55.9267|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 10:25:55.9267|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 10:28:11.0665|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 10:28:11.0892|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 10:28:11.0892|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 10:30:09.8244|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 10:30:09.8480|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 10:30:09.8480|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 10:32:17.8694|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 10:32:17.8922|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 10:32:17.8922|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 10:33:30.5565|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 10:33:30.5793|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 10:33:30.5793|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 10:35:18.4546|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 10:35:18.4783|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 10:35:18.4783|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 14:27:37.3428|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 14:27:37.3805|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 14:27:37.3805|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 14:28:17.5000|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 14:28:17.5223|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 14:28:17.5223|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 14:29:26.9791|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 14:29:27.0014|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 14:29:27.0014|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 14:31:54.8233|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 14:31:54.8458|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 14:31:54.8458|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 14:33:18.6178|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 14:33:18.6402|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 14:33:18.6419|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 14:35:05.5488|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 14:35:05.5711|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 14:35:05.5711|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 14:36:38.2932|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 14:36:38.3150|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 14:36:38.3150|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 14:37:28.3927|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 14:37:28.4137|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 14:37:28.4137|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 14:42:42.5802|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 14:42:42.6037|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 14:42:42.6037|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 14:43:23.3252|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 14:43:23.3474|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 14:43:23.3474|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 14:48:39.3913|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 14:48:39.4130|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 14:48:39.4130|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 14:59:41.3357|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 14:59:41.3585|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 14:59:41.3603|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 15:00:59.9038|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 15:00:59.9262|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 15:00:59.9262|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 15:01:47.1893|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 15:01:47.2115|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 15:01:47.2115|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 15:57:38.0565|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 15:57:38.0784|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 15:57:38.0805|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:18:44.7752|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:18:44.7976|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:18:44.7992|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:21:53.3263|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:21:53.3484|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:21:53.3484|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:22:33.5063|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:22:33.5268|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:22:33.5268|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:23:26.6880|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:23:26.7102|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:23:26.7102|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:24:05.5430|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:24:05.5653|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:24:05.5653|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:26:15.8567|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:26:15.8779|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:26:15.8779|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:26:56.1151|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:26:56.1377|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:26:56.1377|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:28:10.4921|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:28:10.5130|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:28:10.5130|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:28:47.1362|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:28:47.1586|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:28:47.1586|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:29:28.3821|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:29:28.4046|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:29:28.4046|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:31:48.6508|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:31:48.6738|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:31:48.6738|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:34:58.3195|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:34:58.3421|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:34:58.3421|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:36:20.5853|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:36:20.6088|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:36:20.6109|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:36:47.7332|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:36:47.7543|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:36:47.7543|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:38:28.1208|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:38:28.1433|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:38:28.1433|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:40:40.2786|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:40:40.3168|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:40:40.3168|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:40:43.2682|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:40:43.2896|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:40:43.2896|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:42:26.5906|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:42:26.6131|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:42:26.6131|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:44:33.0726|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:44:33.0939|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:44:33.0955|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:51:37.0699|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:51:37.0915|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:51:37.0915|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:51:43.8312|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 16:53:37.6488|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:53:37.6708|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:53:37.6708|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:54:56.0262|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:54:56.0474|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:54:56.0490|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:55:18.4981|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:55:18.5191|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:55:18.5191|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:55:23.5321|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 16:55:42.0342|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:55:42.0561|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:55:42.0561|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:55:56.1778|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 16:57:07.3144|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 16:57:07.3373|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 16:57:07.3373|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 16:57:15.1042|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 16:58:11.5439|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 17:01:31.0352|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 17:03:23.4506|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 17:03:23.4728|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 17:03:23.4728|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 17:19:12.1531|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 17:19:12.1752|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 17:19:12.1752|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 17:24:07.3721|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 17:24:07.3947|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 17:24:07.3947|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 17:24:16.9376|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 17:24:44.4557|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 17:24:44.4772|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 17:24:44.4772|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 17:24:51.9560|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 17:26:39.8650|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 17:31:57.2199|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 17:31:57.2420|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 17:31:57.2420|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 17:32:07.1517|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 17:32:17.8633|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 17:32:34.6743|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 17:32:34.6998|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 17:32:34.6998|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 17:32:43.1539|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 17:33:33.6871|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 17:33:33.7095|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 17:33:33.7095|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 17:33:59.0604|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 17:34:45.1802|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 17:34:45.2015|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 17:34:45.2015|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 17:34:51.0130|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 17:35:26.5287|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 17:36:02.3138|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 17:36:02.3357|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 17:36:02.3357|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 17:36:39.0678|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 17:36:39.0903|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 17:36:39.0903|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 17:36:56.5685|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 18:05:38.3782|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 18:05:38.4094|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 18:05:38.4094|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 18:05:47.2653|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 18:06:25.2263|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 18:06:25.2488|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 18:06:25.2488|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 18:06:33.2426|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 18:08:01.2518|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 18:09:26.2389|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 18:09:29.0050|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 18:09:32.9884|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 18:13:33.8384|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 18:13:54.8509|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 18:24:14.3294|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 18:24:14.3519|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 18:24:14.3519|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 18:24:56.7900|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 18:24:56.8112|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 18:24:56.8112|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 18:26:14.4982|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 18:26:14.5192|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 18:26:14.5192|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 18:26:43.5941|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 18:26:43.6175|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 18:26:43.6175|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 18:28:41.3060|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 18:28:41.3282|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 18:28:41.3302|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 18:31:40.3571|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 18:31:40.3792|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 18:31:40.3792|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 18:32:29.9819|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 18:32:30.0042|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 18:32:30.0042|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 22:56:44.8356|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 22:56:44.8665|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 22:56:44.8665|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 22:56:55.2789|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 23:06:50.3805|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Object reference not set to an instance of an object. |    at BlazorProject.Server.Models.UserRepository.Login(String email, String password) in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Models\UserRepository.cs:line 64
+
+2021-08-25 23:07:53.6058|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 23:07:53.6281|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 23:07:53.6281|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 23:23:24.3381|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 23:23:24.3616|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 23:23:24.3616|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 23:51:08.8124|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 23:51:08.8348|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 23:51:08.8348|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 23:52:52.3130|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 23:52:52.3364|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 23:52:52.3364|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 23:55:43.6557|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 23:55:43.6786|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 23:55:43.6786|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 23:56:42.2121|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-25 23:56:42.2346|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-25 23:56:42.2367|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-25 23:56:54.2190|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/user/GetUserByEmail | POST | ::1

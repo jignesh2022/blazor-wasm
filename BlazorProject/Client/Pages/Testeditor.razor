@@ -1,0 +1,39 @@
+﻿@page "/testeditor"
+
+@inject IJSRuntime JSRuntime
+
+
+<textarea id="editor" cols="50" rows="20"></textarea>
+<button class="btn btn-primary" @onclick="HandleClick">Format</button>
+
+@code {
+    IJSObjectReference module;
+    private string SelectedText = "";
+
+
+    public string HTMLContent { get; set; } = "<h1>Hello World</h1>";
+
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/editor.js");
+        }
+
+
+    }
+
+    private async Task HandleClick()
+    {
+        await module.InvokeVoidAsync("formatDoc", "bold", null);
+    }
+
+    public async Task FormatDoc(string command, string value = null)
+    {
+        await module.InvokeVoidAsync("formatDoc", command, value);
+    }
+
+
+
+}

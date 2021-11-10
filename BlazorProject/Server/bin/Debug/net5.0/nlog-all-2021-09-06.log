@@ -1,0 +1,79 @@
+2021-09-06 16:57:06.4629|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 16:57:06.4817|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 16:57:06.4834|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 16:57:09.3334|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 16:57:09.3334|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 16:58:08.9831|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 16:58:09.0006|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 16:58:09.0006|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 16:58:11.1509|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 16:58:11.1509|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 16:59:34.6947|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 16:59:34.7133|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 16:59:34.7133|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 16:59:38.8962|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 16:59:38.8962|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 17:00:55.5626|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:00:55.5805|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:00:55.5805|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:02:58.3850|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:02:58.4035|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:02:58.4048|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:03:16.9852|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:03:17.0056|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:03:17.0056|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:10:15.7328|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:10:15.7515|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:10:15.7515|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:15:15.0908|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:15:15.1102|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:15:15.1102|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:15:22.9312|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:15:22.9563|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:15:22.9563|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:15:32.6240|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:15:32.6416|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:15:32.6416|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:15:59.9747|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 17:15:59.9747|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 17:23:49.6501|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:23:49.6678|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:23:49.6678|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:24:35.4010|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:24:35.4221|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:24:35.4221|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:24:43.2869|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 17:24:43.2869|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 17:27:00.8628|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:27:00.8810|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:27:00.8810|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:27:29.9925|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:27:30.0169|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:27:30.0169|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:27:51.7704|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 17:27:51.7704|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 17:30:34.8402|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:30:34.8580|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:30:34.8580|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:32:54.3697|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:32:54.3925|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:32:54.3925|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:44:05.0732|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:44:05.0906|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:44:05.0923|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:44:07.2906|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 17:44:07.2906|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 17:48:32.5986|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:48:32.6164|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:48:32.6164|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:48:34.7797|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 17:48:34.7797|WARN|Microsoft.EntityFrameworkCore.Query|The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-09-06 17:48:57.8139|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:48:57.8325|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:48:57.8325|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:49:13.1131|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:49:13.1352|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:49:13.1352|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-06 17:50:19.6922|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-06 17:50:19.7126|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-06 17:50:19.7126|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server

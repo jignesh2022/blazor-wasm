@@ -1,0 +1,138 @@
+﻿@page "/"
+
+@using BlazorProject.Shared
+@inject Services.IBlogService BlogService
+
+<Loading Display="@display" />
+<div class="row justify-content-md-center" >
+    <div class="col-md-5 " style="border:solid 1px silver;  background-color:#FFFFFF;">
+        <span class="oi oi-magnifying-glass" style=" position:absolute; top:13px; left:20px;"></span>
+        <input type="text" name="search" @bind-value="@SearchPhrase"
+               @bind-value:event="oninput" @onkeyup="Search" placeholder="Search"
+               style="border:none; line-height:40px; font-size:20px; width:80%; outline:none; margin-left:30px;" />
+
+    </div>
+  
+</div>
+
+@if (blogs != null)
+{
+    foreach (var blog in blogs)
+    {
+        <div class="card mt-2">
+            <div class="card-body">
+                <div class="title">
+                    <a href="viewblog/@blog.BlogId.ToString()" style="color:inherit;">
+                        @blog.Title
+                    </a>
+                </div>
+                @($"{blog.UpdatedAt.ToString()} | {blog.CreatedBy}")
+                <br /><br />
+                <div class="font-weight-bold">
+                    @blog.Summary
+                </div>
+
+            </div>
+        </div>
+    }
+
+}
+ 
+<div class="alert alert-secondary mt-2" style="display:@displayempty;">
+    No blogs found
+</div>
+
+
+<div class="row mt-2">
+    <div class="col-md-12 d-flex">
+        <button class="btn btn-outline-secondary btn-sm @(HasPreviousPage ? "d-block" : "d-none")"                
+                @onclick="Previous" title="Previous">
+            <span class="oi oi-chevron-left"></span>            
+        </button>
+        <button class="ml-2 btn btn-sm btn-outline-secondary @(HasNextPage ? "d-block" : "d-none")"
+                @onclick="Next" title="Next">            
+            <span class="oi oi-chevron-right"></span>
+        </button>
+    </div>
+</div>
+
+ 
+
+@code{
+
+    IEnumerable<Blog> blogs;
+    BlogsDTO blogsdto;
+    private string display { get; set; } = "none";
+    private string SearchPhrase = string.Empty;
+    private string displayempty = "none";
+
+    private int PageNum = 1;
+    private int PageSize = 5;
+    private bool HasNextPage = false;
+    private bool HasPreviousPage = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //blogs = await BlogService.GetAllBlogs();
+        display = "block";
+        blogsdto = await BlogService.GetPaginatedBlogs(PageNum,PageSize);
+        display = "none";
+        blogs = blogsdto.BlogList;
+        if (blogs == null)
+        {
+            displayempty = "block";
+        }
+        else
+        {
+            HasNextPage = blogsdto.HasNextPage;
+            HasPreviousPage = blogsdto.HasPrevPage;
+        }
+    }
+
+
+
+    private async Task Search(KeyboardEventArgs e)
+    {
+        HasNextPage = false;
+        HasPreviousPage = false;
+        if (e.Code == "Enter" || e.Code == "NumpadEnter")
+        {
+            if (!string.IsNullOrWhiteSpace(SearchPhrase))
+            {
+                display = "block";
+                blogs = await BlogService.SearchBlogs(SearchPhrase);
+                display = "none";
+                if (blogs == null)
+                {
+                    displayempty = "block";
+                }
+            }
+        }
+
+        if(string.IsNullOrWhiteSpace(SearchPhrase))
+        {
+            await OnInitializedAsync();
+        }
+    }
+
+    private async Task Previous()
+    {
+        PageNum -= 1;
+        blogsdto = await BlogService.GetPaginatedBlogs(PageNum, PageSize);
+
+        blogs = blogsdto.BlogList;
+        HasNextPage = blogsdto.HasNextPage;
+        HasPreviousPage = blogsdto.HasPrevPage;
+    }
+
+    private async Task Next()
+    {
+        PageNum += 1;
+        blogsdto = await BlogService.GetPaginatedBlogs(PageNum, PageSize);
+
+        blogs = blogsdto.BlogList;
+        HasNextPage = blogsdto.HasNextPage;
+        HasPreviousPage = blogsdto.HasPrevPage;
+    }
+
+}

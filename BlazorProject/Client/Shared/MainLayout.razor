@@ -1,0 +1,21 @@
+﻿@inherits LayoutComponentBase
+
+    <div id="messageDiv" 
+         style="position: absolute; top: 50px; left: 0; right: 0; margin-left: auto; margin-right: auto; z-index: 100; display: flex; justify-content: center; "></div>
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <div class="main">
+        @*<div class="top-row px-4">            
+        </div>*@
+
+        <div class="content px-4 mt-5">            
+            @Body
+        </div>
+    </div>
+</div>
+@code{
+    
+}

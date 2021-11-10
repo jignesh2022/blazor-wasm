@@ -1,0 +1,88 @@
+﻿@page "/login"
+@inject StateManagement.UserState UserState
+@inject Services.IUserService UserService
+@implements IDisposable
+@inject NavigationManager NavigationManager
+@using JWT.Serializers;
+@using JWT.Builder;
+@inject IJSRuntime JSRuntime
+
+<Loading Display="@display" />
+
+<div class="row justify-content-md-center mt-5">
+    <div class="col-md-3 text-left">
+        <h3 class="float-left">Login</h3>
+        <br />
+        
+        <EditForm Model="loginmodel" OnInvalidSubmit="InvalidSubmit"
+                  OnValidSubmit="ValidSubmit">
+            <DataAnnotationsValidator />
+            <div class="form-group">
+                <InputText class="form-control" placeholder="Email" @bind-Value="loginmodel.Email"></InputText>
+                <ValidationMessage For="@(() => loginmodel.Email)" />
+            </div>
+            <div class="form-group">
+                <InputText class="form-control" type="password" placeholder="Password" @bind-Value="loginmodel.Password"></InputText>
+                <ValidationMessage For="@(() => loginmodel.Password)" />
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary btn-sm float-left">Login</button>
+                &nbsp;&nbsp;
+                <a class="btn btn-sm btn-outline-primary" href="/register">Register</a>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+        
+    private BlazorProject.Shared.Login loginmodel = new BlazorProject.Shared.Login();
+    private string display { get; set; } = "none";
+
+
+    private async Task ValidSubmit()
+    {
+        display = "block";
+        string token = await UserService.Login(loginmodel);
+        display = "none";
+        if (token != null)
+        {
+            //Console.WriteLine(token);
+            IDictionary<string, object> payload = null;
+            payload = JwtBuilder.Create()
+                .Decode<IDictionary<string, object>>(token);
+            //Console.WriteLine(payload["claim2"].ToString());
+            if (payload != null)
+            { 
+                UserState.SetToken(token); 
+                UserState.SetUser(payload); 
+                 
+                NavigationManager.NavigateTo("/myblogs"); 
+            }
+        }
+        else
+        {
+            
+            loginmodel = new BlazorProject.Shared.Login();
+
+            await JSRuntime.InvokeVoidAsync("showMessage","danger","Email or password not valid.");
+        }
+    }
+
+    private void InvalidSubmit()
+    {
+
+    }
+
+    protected override void OnInitialized()
+    {
+        UserState.OnChange += StateHasChanged;
+
+    }
+
+    public void Dispose()
+    {
+        UserState.OnChange -= StateHasChanged;
+    }
+
+}

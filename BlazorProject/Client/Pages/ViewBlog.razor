@@ -1,0 +1,52 @@
+﻿@page "/viewblog/{BlogId:int}"
+@inject Services.IBlogService BlogService
+@using BlazorProject.Shared
+@using Newtonsoft.Json;
+@using Newtonsoft.Json.Linq;
+
+<div style="background-color:#FFFFFF; padding:10px;">
+    @if (Blog != null)
+    {
+        <div class="title">
+            @Blog.Title
+        </div>
+        @($"{Blog.UpdatedAt.ToString()} | {@Blog.CreatedBy}")
+        <div>@Blog.Summary</div>
+        <br />
+        <div>@((MarkupString)Blog.Body)</div>
+    }
+    else
+    {
+        <div class="alert alert-secondary">Not found.</div>
+    }
+</div>
+@code {
+
+    [Parameter]
+    public int BlogId { get; set; }
+
+    private Blog Blog;
+
+    /*protected override async Task OnInitializedAsync()
+    {
+        if (BlogId > 0)
+        {
+            Blog = await BlogService.GetBlog(BlogId);
+        }
+    }*/
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (BlogId > 0)
+        {
+            ResponseDTO rdto = await BlogService.GetBlog(BlogId);
+
+            if(rdto.StatusCode == 200)
+            {               
+                Blog = ((JObject)rdto.Data).ToObject<Blog>();             
+
+            }
+        }
+    }
+
+}

@@ -1,0 +1,434 @@
+2021-09-03 00:01:51.6545|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:01:51.6741|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:01:51.6741|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:07:41.9897|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:07:42.0077|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:07:42.0077|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:08:55.4188|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:08:55.4383|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:08:55.4397|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:11:58.3346|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:11:58.3525|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:11:58.3525|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:12:53.4846|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:12:53.5077|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:12:53.5077|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:13:18.8396|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:13:18.8587|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:13:18.8587|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:13:41.1168|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 00:14:48.6506|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:14:48.6683|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:14:48.6683|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:15:20.6361|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 00:17:47.4464|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:17:47.4658|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:17:47.4658|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:18:03.3985|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:18:03.4177|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:18:03.4177|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:18:14.5580|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 00:20:25.2261|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:20:25.2441|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:20:25.2441|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:21:48.7610|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:21:48.7801|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:21:48.7801|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:22:50.1341|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:22:50.1529|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:22:50.1529|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:23:34.6065|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:23:34.6270|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:23:34.6270|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:24:29.2979|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:24:29.3173|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:24:29.3173|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:24:40.5415|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 00:24:55.7228|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/deleteblog/1 | DELETE | ::1
+2021-09-03 00:25:13.5952|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 00:26:29.5271|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:26:29.5454|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:26:29.5454|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:26:38.9851|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 00:27:00.7571|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/createblog | POST | ::1
+2021-09-03 00:27:09.1634|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 00:27:21.8415|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/deleteblog/1002 | DELETE | ::1
+2021-09-03 00:27:21.9055|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 00:28:17.8033|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 00:28:17.8246|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 00:28:17.8246|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 00:28:30.6156|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 00:28:52.0836|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/createblog | POST | ::1
+2021-09-03 00:28:52.2105|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 00:30:50.1309|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 00:31:12.5310|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 00:31:40.9294|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/deleteblog/1003 | DELETE | ::1
+2021-09-03 00:31:40.9655|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 00:31:54.5302|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 00:32:13.8010|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/deleteblog/1004 | DELETE | ::1
+2021-09-03 00:32:13.8010|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:05:45.3550|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:05:45.3837|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:05:45.3837|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:06:01.7781|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:06:49.8934|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/createblog | POST | ::1
+2021-09-03 09:06:50.0325|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:08:00.1053|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:08:00.1232|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:08:00.1232|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:08:00.8756|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/1005 | GET | ::1
+2021-09-03 09:08:35.2406|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:08:35.2593|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:08:35.2593|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:08:51.2429|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:09:02.0281|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/1005 | GET | ::1
+2021-09-03 09:10:31.7276|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:10:31.7485|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:10:31.7485|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:10:32.4554|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/1005 | GET | ::1
+2021-09-03 09:12:27.4125|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:12:27.4344|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:12:27.4344|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:15:16.8342|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:15:16.8575|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:15:16.8575|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:15:17.5492|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/1005 | GET | ::1
+2021-09-03 09:17:08.4567|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:17:08.4786|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:17:08.4786|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:17:09.1677|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/1005 | GET | ::1
+2021-09-03 09:17:19.8193|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:17:22.6076|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/1005 | GET | ::1
+2021-09-03 09:20:07.8000|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:20:07.8191|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:20:07.8191|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:20:08.5278|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/1005 | GET | ::1
+2021-09-03 09:20:38.9327|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:20:38.9513|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:20:38.9513|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:21:03.1238|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:21:03.1412|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:21:03.1425|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:21:27.3615|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:21:56.8073|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:21:56.8265|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:21:56.8265|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:22:15.2705|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:22:15.2882|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:22:15.2882|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:22:36.2012|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:23:15.9149|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:23:15.9352|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:23:15.9352|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:23:23.6266|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:23:23.6441|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:23:23.6441|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:24:17.6412|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:24:17.6593|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:24:17.6593|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:25:11.3282|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:25:11.3468|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:25:11.3468|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:30:19.6413|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:30:19.6592|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:30:19.6592|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:30:39.4061|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:30:39.4256|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:30:39.4256|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:31:03.4523|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:31:03.4737|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:31:03.4737|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:32:32.8763|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:32:32.8978|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:32:32.8978|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:33:40.2055|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:33:40.2268|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:33:40.2268|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:33:46.1619|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:33:46.1796|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:33:46.1796|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:34:07.6886|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:34:07.7106|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:34:07.7106|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:34:34.6542|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 09:34:34.6722|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 09:34:34.6740|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 09:34:53.9101|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:53:34.5875|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:54:02.0409|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:54:36.7053|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:56:12.7455|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:56:19.2650|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:58:12.3285|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:58:18.7691|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:58:20.5363|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:58:34.6805|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:58:54.1447|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 09:59:57.5374|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 10:00:04.5609|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 10:00:19.6644|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 10:06:43.2725|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 10:06:43.2953|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 10:06:43.2953|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 10:06:43.2953|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 10:06:54.0466|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 10:07:59.6782|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 10:08:01.5287|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 10:17:51.6830|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 10:17:58.0554|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 10:18:00.3843|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 15:10:36.8936|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:10:36.9342|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:10:36.9342|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:11:48.7185|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:11:48.7363|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:11:48.7363|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:12:15.8852|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:12:15.9039|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:12:15.9039|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:17:27.5711|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:17:27.5902|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:17:27.5902|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:19:13.0353|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:19:13.0530|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:19:13.0530|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:25:32.0198|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 15:25:40.6224|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 15:25:45.3742|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 15:25:50.2224|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 15:25:54.3103|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 15:26:11.8224|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 15:27:19.6565|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 15:27:31.7511|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 15:27:33.7016|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 15:27:35.9345|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 15:28:26.8383|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 15:28:29.0224|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 15:38:26.3576|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:38:26.3756|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:38:26.3756|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:38:27.7734|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/getblogs | GET | ::1
+2021-09-03 15:39:17.9301|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:39:17.9529|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:39:17.9529|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:39:18.4888|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/getblogs | GET | ::1
+2021-09-03 15:40:55.1160|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:40:55.1341|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:40:55.1341|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:40:55.8409|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/getblogs | GET | ::1
+2021-09-03 15:41:44.7088|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:41:44.7271|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:41:44.7271|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:41:45.4110|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/getblogs | GET | ::1
+2021-09-03 15:42:00.0708|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:42:00.0910|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:42:00.0910|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:42:40.8040|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:42:40.8229|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:42:40.8229|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:44:52.6765|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:44:52.6946|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:44:52.6946|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:45:38.0169|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:45:38.0374|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:45:38.0374|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:47:14.2837|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:47:14.3028|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:47:14.3028|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:48:08.8137|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:48:08.8339|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:48:08.8339|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:50:38.4607|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:50:38.4847|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:50:38.4847|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:53:20.8247|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:53:20.8479|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:53:20.8479|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:53:53.2640|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:53:53.2884|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:53:53.2884|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:54:12.1074|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:54:12.1257|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:54:12.1257|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:54:38.5994|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:54:38.6189|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:54:38.6189|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:55:02.7642|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:55:02.7818|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:55:02.7818|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:55:34.2915|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:55:34.3110|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:55:34.3110|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:55:58.7276|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:55:58.7456|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:55:58.7456|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:56:31.6960|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:56:31.7142|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:56:31.7142|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:56:53.4898|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:56:53.5080|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:56:53.5080|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:57:21.5417|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:57:21.5618|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:57:21.5618|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:57:35.7733|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:57:35.7957|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:57:35.7957|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:58:07.4975|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:58:07.5155|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:58:07.5155|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:58:26.5780|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:58:26.5958|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:58:26.5958|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:58:41.4826|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:58:41.5004|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:58:41.5004|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:59:00.6647|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:59:00.6829|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:59:00.6829|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 15:59:40.3311|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 15:59:40.3524|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 15:59:40.3524|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:00:00.4892|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:00:00.5071|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:00:00.5071|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:00:28.7229|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:00:28.7431|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:00:28.7431|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:00:52.5546|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:00:52.5737|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:00:52.5737|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:01:12.0727|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:01:12.0907|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:01:12.0907|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:01:33.1102|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:01:33.1300|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:01:33.1319|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:02:47.3713|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:02:47.3913|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:02:47.3913|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:03:14.6912|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:03:14.7118|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:03:14.7118|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:14:48.9892|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:14:49.0110|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:14:49.0110|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:15:27.8953|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:15:27.9129|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:15:27.9129|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:16:11.3966|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:16:11.4208|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:16:11.4208|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:16:37.6730|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:16:37.6914|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:16:37.6929|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:17:01.5573|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:17:01.5755|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:17:01.5755|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:17:35.8323|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:17:35.8501|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:17:35.8501|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:17:49.4692|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:17:49.4910|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:17:49.4910|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:46:13.7625|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:46:13.7807|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:46:13.7807|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:48:17.8933|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:48:17.9160|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:48:17.9160|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:48:40.9018|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:48:40.9204|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:48:40.9204|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:49:17.7092|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:49:17.7346|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:49:17.7346|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 16:56:49.2915|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 16:56:49.3136|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 16:56:49.3136|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:03:15.8874|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:03:15.9055|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:03:15.9055|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:04:59.0059|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:04:59.0251|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:04:59.0251|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:05:38.2129|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:05:38.2312|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:05:38.2312|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:05:56.4891|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:05:56.5103|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:05:56.5103|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:06:30.9576|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:06:30.9770|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:06:30.9770|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:13:24.6205|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:13:24.6390|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:13:24.6390|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:13:34.5691|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:13:34.5886|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:13:34.5886|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:14:30.2920|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:14:30.3123|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:14:30.3123|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:18:10.7791|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:18:10.7975|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:18:10.7975|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:20:35.9104|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:20:35.9289|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:20:35.9289|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:21:02.3214|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:21:02.3427|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:21:02.3427|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:21:51.4667|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:21:51.4869|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:21:51.4869|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:22:12.4164|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:22:12.4362|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:22:12.4362|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:22:44.4916|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:22:44.5099|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:22:44.5099|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:23:15.8235|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:23:15.8422|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:23:15.8422|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:23:48.6080|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:23:48.6267|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:23:48.6267|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:24:44.3066|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:24:44.3249|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:24:44.3249|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:24:52.5295|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:24:52.5496|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:24:52.5496|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:25:03.5198|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:25:03.5376|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:25:03.5376|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:25:39.1997|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:25:39.2220|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:25:39.2220|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:26:00.5863|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:26:00.6071|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:26:00.6071|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:26:21.7630|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:26:21.7812|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:26:21.7812|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:26:50.7528|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:26:50.7737|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:26:50.7737|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:54:44.9850|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:54:45.0226|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:54:45.0226|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:56:05.0034|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:56:05.0212|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:56:05.0212|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:56:38.1128|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 17:56:38.1309|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 17:56:38.1309|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 17:59:59.9564|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 23:27:43.2545|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-03 23:27:43.2869|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-03 23:27:43.2869|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-09-03 23:28:04.2109|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 23:28:08.6249|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 23:28:18.2085|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1
+2021-09-03 23:28:44.5207|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog/GetBlogsByUserid | POST | ::1

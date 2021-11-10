@@ -1,0 +1,109 @@
+﻿@inject IJSRuntime JSRuntime
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <ul class="list-group list-group-horizontal-md">
+            <li class="list-group-item">
+                <select @onchange="@((e)=> FormatDoc(e.Value.ToString()))">
+                    <option selected="selected" value="p">Paragraph</option>
+                    <option value="h1">Heading 1</option>
+                    <option value="h2">Heading 2</option>
+                    <option value="h3">Heading 3</option>
+                    <option value="h4">Heading 4</option>
+                    <option value="h5">Heading 5</option>
+                    <option value="h6">Heading 6</option>
+                </select>
+            </li> 
+            <li class="list-group-item">
+                <a @onclick=@(() => FormatDoc("bold"))> 
+                    <span class="oi oi-bold"></span>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a @onclick=@(() => FormatDoc("italic"))>
+                    <span class="oi oi-italic"></span>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a @onclick=@(() => FormatDoc("undo"))>
+                    <span class="oi oi-action-undo"></span>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a @onclick=@(() => FormatDoc("redo"))>
+                    <span class="oi oi-action-redo"></span>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a @onclick=@(() => FormatDoc("justifyleft"))>
+                    <span class="oi oi-align-left"></span>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a @onclick=@(() => FormatDoc("justifycenter"))>
+                    <span class="oi oi-align-center"></span>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a @onclick=@(() => FormatDoc("justifyright"))>
+                    <span class="oi oi-align-right"></span>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a @onclick=@(() => FormatDoc("insertorderedlist"))>
+                    <span class="oi oi-list"></span>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a @onclick=@(() => FormatDoc("insertunorderedlist"))>
+                    <span class="oi oi-list"></span>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a >
+                    <span class="oi oi-image" title="Insert Image"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="editor" class="panel-body" contenteditable="true"
+         style="width:100%; height:300px; background-color:#FFFFFF; border:solid 1px silver; padding:5px;">
+        @((MarkupString)HTMLContent)
+    </div>
+    
+</div>
+
+@code {    
+    IJSObjectReference module;
+    private string SelectedText = "";
+
+    [Parameter]
+    public string HTMLContent { get; set; } = "<h1>Hello World</h1>";
+
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if(firstRender)
+        {
+            module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/editor.js");
+        }
+
+
+    }
+
+    private void GetSelectedListValue()
+        {
+
+        }
+
+
+
+    public async Task FormatDoc(string command, string value = null)
+    {
+        await module.InvokeVoidAsync("formatDoc",command,value);   
+    }
+
+
+
+}

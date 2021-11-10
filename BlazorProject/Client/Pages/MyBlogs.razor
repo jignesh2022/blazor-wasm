@@ -1,0 +1,168 @@
+﻿@page "/myblogs"
+@inject NavigationManager NM
+@inject StateManagement.UserState UserState
+@using BlazorProject.Shared
+@inject Services.IBlogService BlogService
+@inject IJSRuntime JSRuntime
+@using Newtonsoft.Json.Linq
+@implements IDisposable
+
+<h3>My Blogs</h3>
+
+<button class="btn btn-info btn-sm" @onclick="@CreateNew">
+    <span class="oi oi-file"></span>&nbsp;
+    Create New Blog
+</button>
+
+@if (blogs != null)
+{
+    foreach (var blog in blogs)
+    {
+        <div class="card mt-2">             
+            <div class="card-body">
+                <div class="float-md-right">
+                    <Button title="Update" class="btn btn-outline-dark btn-sm" @onclick=@(() => NM.NavigateTo("/updateblog/" + blog.BlogId.ToString()))>
+                        <span class="oi oi-pencil"></span>
+                    </Button>
+                    &nbsp;
+                    <Button title="Delete"  class="btn btn-outline-danger btn-sm"
+                            @onclick="() => { blogid = blog.BlogId.ToString(); modal.Open(); }">
+                    <span class="oi oi-x "></span>
+                    </Button>
+                </div>
+                <div class="title">
+                    <a href="viewblog/@blog.BlogId.ToString()" style="color:inherit;">
+                        @blog.Title
+                    </a>
+                </div>                
+                @blog.CreatedAt.ToString()                
+                <br />
+                <div class="font-weight-bold">
+                    @blog.Summary
+                </div>
+                
+            </div>
+        </div>
+    }
+
+}
+else
+{
+    <div class="alert alert-secondary">No Records found</div>
+}
+
+<BootstrapModal @ref="modal">
+    <Title>Delete Alert</Title>
+    <Body>
+        <p>
+            Do you want to delete this blog?
+        </p>
+    </Body>
+    <Footer>
+        <button type="button" class="btn btn-primary" @onclick="Delete">Yes</button>
+        <button type="button" class="btn btn-secondary" 
+                data-dismiss="modal" @onclick="() => modal.Close()">No</button>
+    </Footer>
+</BootstrapModal>
+
+@code {
+    private BootstrapModal modal { get; set; }
+    private string blogid = "";
+
+    IEnumerable<Blog> blogs;
+    ResponseDTO rdto;
+    protected override async Task OnInitializedAsync()
+    {
+        if (UserState.UserObj == null)
+        {
+            NM.NavigateTo("/login");
+        }
+        else
+        {
+            rdto = await BlogService.GetBlogsByUserid();
+
+            if(rdto.StatusCode == 200)
+            {
+                blogs = ((JArray)rdto.Data).ToObject<IEnumerable<Blog>>();
+            }
+            else if (rdto.StatusCode == 403)
+            {
+                await Logout(rdto.Message);
+            }
+            else
+            {
+                await JSRuntime.InvokeVoidAsync("showMessage", "info", rdto.Message);
+            }
+        }
+
+    }
+
+
+    private void CreateNew()
+    {
+        NM.NavigateTo("/createblog");
+    }
+
+    private async Task Delete()
+    {
+        modal.Close();
+        ResponseDTO rdto;
+        //Console.WriteLine(blogid);
+        int.TryParse(blogid, out int id);
+        if (id > 0)
+        {
+            rdto = await BlogService.DeleteBlog(id);
+            if (rdto.StatusCode == 200)
+            {
+                await JSRuntime.InvokeVoidAsync("showMessage", "success", "Blog is deleted.");
+                blogid = "";
+
+                rdto = await BlogService.GetBlogsByUserid();
+
+                if (rdto.StatusCode == 200)
+                {
+                    blogs = ((JArray)rdto.Data).ToObject<IEnumerable<Blog>>();
+                }
+                else if (rdto.StatusCode == 403)
+                {
+                    await Logout(rdto.Message);
+                }
+                else
+                {
+                    await JSRuntime.InvokeVoidAsync("showMessage", "info", rdto.Message);
+                }
+            }
+            else if (rdto.StatusCode == 403)
+            {
+                await Logout(rdto.Message);
+            }
+            else
+            {
+                await JSRuntime.InvokeVoidAsync("showMessage", "info", rdto.Message);
+            }
+
+        }
+
+        blogid = "";
+    }
+
+    private async Task Logout(string message)
+    {
+        UserState.SetToken(null);
+        UserState.SetUser(null);
+        await JSRuntime.InvokeVoidAsync("showMessage", "danger", message);
+        NM.NavigateTo("/");
+    }
+
+    protected override Task OnAfterRenderAsync(bool firstRender)
+    {
+        UserState.OnChange += StateHasChanged;
+        return base.OnAfterRenderAsync(firstRender);
+    }
+
+    public void Dispose()
+    {
+        UserState.OnChange -= StateHasChanged;
+    }
+
+}

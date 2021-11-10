@@ -1,0 +1,6 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Client\wwwroot\" />
+  <ContentRoot BasePath="_content/Radzen.Blazor" Path="C:\Users\Developer\.nuget\packages\radzen.blazor\3.9.7\build\..\staticwebassets\" />
+</StaticWebAssets>

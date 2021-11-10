@@ -1,0 +1,16 @@
+2021-08-19 14:51:48.6242|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Test error|   at BlazorProject.Server.Controllers.UserController.Welcome() in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Controllers\UserController.cs:line 33
+
+2021-08-19 15:48:02.9843|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-19 15:48:03.0070|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-19 15:48:03.0093|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-19 15:48:16.3055|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/apitest|GET|::1
+2021-08-19 15:48:26.6200|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Test error|   at BlazorProject.Server.Controllers.UserController.Welcome() in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Controllers\UserController.cs:line 33
+
+2021-08-19 15:49:12.3215|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/user|GET|::1
+2021-08-19 15:49:54.5121|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/blog|GET|::1
+2021-08-19 16:01:22.8155|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-19 16:01:22.8398|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-19 16:01:22.8398|INFO|Microsoft.Hosting.Lifetime|Content root path: G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server
+2021-08-19 16:01:28.9201|ERROR|BlazorProject.Server.Middlewares.ErrorHandlingMiddleware|Test error |    at BlazorProject.Server.Controllers.UserController.Welcome() in G:\VS2019 Projects\BlazorWebAssemblyDemo\BlazorProject\Server\Controllers\UserController.cs:line 33
+
+2021-08-19 16:02:44.8798|INFO|BlazorProject.Server.Middlewares.CustomAuthMiddleware|/api/user | GET | ::1

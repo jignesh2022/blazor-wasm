@@ -1,0 +1,120 @@
+﻿@page "/CreateBlog"
+@inject StateManagement.UserState UserState
+@inject  NavigationManager NavigationManager
+@using BlazorProject.Shared;
+@inject Services.IBlogService BlogService
+@inject IJSRuntime JSRuntime
+@implements IDisposable
+
+<h3>Create Blog</h3>
+
+<EditForm Model="@BlogModel" OnInvalidSubmit="InvalidSubmit"
+          OnValidSubmit="ValidSubmit" @onreset="HandleReset">
+    <DataAnnotationsValidator />
+    <div class="form-group">
+        <InputText class="form-control" placeholder="Title"
+                   @bind-Value="BlogModel.Title"></InputText>
+        <ValidationMessage For="@(() => BlogModel.Title)" />
+    </div>
+    <div class="form-group">
+        <InputText class="form-control" placeholder="Summary"
+                   @bind-Value="BlogModel.Summary"></InputText>
+        <ValidationMessage For="@(() => BlogModel.Summary)" />
+    </div>
+    <div class="form-group">
+        <RadzenHtmlEditor @bind-Value="BlogModel.Body"
+                          style="height: 500px; margin-bottom: 1rem;"
+                          UploadUrl="upload/image"
+                          Change=@OnChange Paste=@OnPaste Execute=@OnExecute />
+        <ValidationMessage For="@(() => BlogModel.Body)" />
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-sm">Create</button>
+        <button type="reset" class="btn btn-secondary btn-sm ml-1">Reset</button>
+    </div>
+</EditForm>
+
+@code {
+    public string HTMLContent { get; set; }
+    Blog BlogModel = new Blog();
+    private string display { get; set; } = "none";
+
+    protected override Task OnInitializedAsync()
+    {
+        if(UserState.UserObj == null)
+        {
+            NavigationManager.NavigateTo("/login");
+        }
+        return base.OnInitializedAsync();
+    }
+
+    ////EventConsole console;
+
+    void OnPaste(HtmlEditorPasteEventArgs args)
+    {
+        //  console.Log($"Paste: {args.Html}");
+    }
+
+    void OnChange(string html)
+    {
+        //console.Log($"Change: {html}");
+    }
+
+    void OnExecute(HtmlEditorExecuteEventArgs args)
+    {
+        //console.Log($"Execute: {args.CommandName}");
+    }
+
+    private async Task ValidSubmit()
+    {
+        display = "block";
+        ResponseDTO rdto;
+        rdto = await BlogService.CreateBlog(BlogModel);
+        display = "none";
+        if (rdto.StatusCode == 201)
+        {
+            await JSRuntime.InvokeVoidAsync("showMessage", "success", "New Blog Created Successfully.");
+            NavigationManager.NavigateTo("/myblogs");
+        }
+        else if (rdto.StatusCode == 403)
+        {
+            await Logout(rdto.Message);
+        }
+        else
+        {
+            await JSRuntime.InvokeVoidAsync("showMessage", "info", rdto.Message);
+
+        }
+
+    }
+
+    private async Task InvalidSubmit()
+    {
+        await JSRuntime.InvokeVoidAsync("showMessage", "danger", "Invalid submit.");
+        //Console.WriteLine("Invalid FORM SUBMIT LOGIN");
+    }
+
+    private void HandleReset()
+    {
+        BlogModel = new Blog();
+    }
+
+    private async Task Logout(string message)
+    {
+        UserState.SetToken(null);
+        UserState.SetUser(null);
+        await JSRuntime.InvokeVoidAsync("showMessage", "danger", message);
+        NavigationManager.NavigateTo("/");
+    }
+
+    protected override Task OnAfterRenderAsync(bool firstRender)
+    {
+        UserState.OnChange += StateHasChanged;
+        return base.OnAfterRenderAsync(firstRender);
+    }
+
+    public void Dispose()
+    {
+        UserState.OnChange -= StateHasChanged;
+    }
+}

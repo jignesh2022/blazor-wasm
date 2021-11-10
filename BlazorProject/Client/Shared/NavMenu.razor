@@ -1,0 +1,98 @@
+﻿@inject StateManagement.UserState UserState
+@inject NavigationManager NavigationManager
+
+<div class="top-row pl-4 navbar navbar-dark">
+    <a class="navbar-brand" href="">techBlog</a>
+    <button class="navbar-toggler" @onclick="ToggleNavMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <ul class="nav flex-column">
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </li>
+
+        @if (!string.IsNullOrWhiteSpace(Username))
+        {
+            <li class="nav-item px-3">
+                <NavLink class="nav-link" href="myblogs">
+                    <span class="oi oi-list" aria-hidden="true"></span> My Blogs
+                </NavLink>
+            </li>
+            <li class="nav-item px-3">
+                <NavLink class="nav-link" @onclick="Logout" href="#">
+                    <span class="oi oi-account-logout " aria-hidden="true"></span> LogOut
+                </NavLink>
+            </li>
+            <li class=" nav-item px-5">
+                <span class="badge-info p-2 text-center">
+                    <span class="oi oi-person" aria-hidden="true"></span>
+                    @Username
+                </span>                
+            </li>
+            <li class=" nav-item px-3">             
+                <span class="text-info">Session will expire in 30 mins.</span>
+            </li>
+
+
+        }
+        else
+        {
+            <li class="nav-item px-3">
+                <NavLink class="nav-link" href="login">
+                    <span class="oi oi-account-login " aria-hidden="true"></span> LogIn
+                </NavLink>
+            </li>
+            }
+        </ul>
+   
+</div>
+
+@code {
+    private bool collapseNavMenu = true;    
+
+    private string Username { get; set; }
+
+    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    private void Logout()
+    {        
+        UserState.SetToken(null);
+        UserState.SetUser(null);
+
+        NavigationManager.NavigateTo("/");
+
+    }
+
+    protected override void OnInitialized()
+    {
+
+        base.OnInitializedAsync();
+
+    }
+
+    protected override Task OnAfterRenderAsync(bool firstRender)
+    {
+
+        Username = UserState?.UserObj?["claim2"].ToString();
+        
+        //Console.WriteLine("FROM MainLayout " + Username);
+        UserState.OnChange += StateHasChanged;
+        return base.OnAfterRenderAsync(firstRender);
+
+    }
+
+    public void Dispose()
+    {
+        UserState.OnChange -= StateHasChanged;
+    }
+}

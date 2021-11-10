@@ -1,0 +1,151 @@
+﻿@page "/updateblog/{BlogId:int}"
+@inject StateManagement.UserState UserState
+@inject NavigationManager NavigationManager
+@using BlazorProject.Shared;
+@inject Services.IBlogService BlogService
+@inject IJSRuntime JSRuntime
+@using Newtonsoft.Json
+@using Newtonsoft.Json.Linq
+@implements IDisposable
+
+<h3>Update Blog</h3>
+
+<EditForm Model="@BlogModel" OnInvalidSubmit="InvalidSubmit"
+          OnValidSubmit="ValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="form-group">
+        <InputText class="form-control" placeholder="Title"
+                   @bind-Value="BlogModel.Title"></InputText>
+        <ValidationMessage For="@(() => BlogModel.Title)" />
+    </div>
+    <div class="form-group">
+        <InputText class="form-control" placeholder="Summary"
+                   @bind-Value="BlogModel.Summary"></InputText>
+        <ValidationMessage For="@(() => BlogModel.Summary)" />
+    </div>
+    <div class="form-group">
+        <RadzenHtmlEditor @bind-Value="BlogModel.Body"
+                          style="height: 500px; margin-bottom: 1rem;"
+                          UploadUrl="upload/image"
+                          Change=@OnChange Paste=@OnPaste Execute=@OnExecute />
+        <ValidationMessage For="@(() => BlogModel.Body)" />
+    </div>
+    @*<input type="hidden" name="userid" @bind-value="BlogModel.UserId" />*@
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-sm">Update</button>
+    </div>
+</EditForm>
+
+@code {
+
+    [Parameter]
+    public int BlogId { get; set; }
+
+    public string HTMLContent { get; set; }
+    Blog BlogModel = new Blog();
+    private string display { get; set; } = "none";
+
+    private ResponseDTO rdto;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (UserState.UserObj == null)
+        {
+            NavigationManager.NavigateTo("/login");
+        }
+
+        rdto = await BlogService.GetBlog(BlogId);
+        if (rdto.StatusCode == 200)
+        {
+            BlogModel = ((JObject)rdto.Data).ToObject<Blog>();
+        }
+        else if (rdto.StatusCode == 403)
+        {
+            await Logout(rdto.Message);
+        }
+        else
+        {
+            await JSRuntime.InvokeVoidAsync("showMessage", "info", rdto.Message);
+
+        }
+
+    }
+
+    ////EventConsole console;
+
+    void OnPaste(HtmlEditorPasteEventArgs args)
+    {
+        //  console.Log($"Paste: {args.Html}");
+    }
+
+    void OnChange(string html)
+    {
+        //console.Log($"Change: {html}");
+    }
+
+    void OnExecute(HtmlEditorExecuteEventArgs args)
+    {
+        //console.Log($"Execute: {args.CommandName}");
+    }
+
+    private async Task ValidSubmit()
+    {
+        display = "block";
+        Blog updated = null;
+        ResponseDTO rdto = await BlogService.UpdateBlog(BlogModel);
+        display = "none";
+
+        if (rdto.StatusCode == 200)
+        {
+            updated = ((JObject)rdto.Data).ToObject<Blog>();
+        }
+        else if (rdto.StatusCode == 403)
+        {
+            await Logout(rdto.Message);
+        }
+        else
+        {
+            await JSRuntime.InvokeVoidAsync("showMessage", "info", rdto.Message);
+
+        }
+
+
+
+        if (updated != null)
+        {
+            await JSRuntime.InvokeVoidAsync("showMessage", "success", "Blog updated successfully.");
+            NavigationManager.NavigateTo("/viewblog/" + updated.BlogId);
+        }
+        else
+        {
+            await JSRuntime.InvokeVoidAsync("showMessage", "danger", "Some error.");
+        }
+    }
+
+    private async Task InvalidSubmit()
+    {
+        await JSRuntime.InvokeVoidAsync("showMessage", "danger", "Invalid submit.");
+        //Console.WriteLine("Invalid FORM SUBMIT LOGIN");
+    }
+
+    private async Task Logout(string message)
+    {
+        UserState.SetToken(null);
+        UserState.SetUser(null);
+        await JSRuntime.InvokeVoidAsync("showMessage", "danger", message);
+        NavigationManager.NavigateTo("/");
+    }
+
+    protected override Task OnAfterRenderAsync(bool firstRender)
+    {
+        UserState.OnChange += StateHasChanged;
+        return base.OnAfterRenderAsync(firstRender);
+    }
+
+    public void Dispose()
+    {
+        UserState.OnChange -= StateHasChanged;
+    }
+
+
+}
