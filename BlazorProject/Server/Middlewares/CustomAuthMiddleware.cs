@@ -49,6 +49,7 @@ namespace BlazorProject.Server.Middlewares
                     string resp = JsonConvert.SerializeObject(rdto);
 
                     await httpContext.Response.WriteAsync(resp);
+                    return;
                 }
                 
                 string[] auth = authorization.ToString().Split(" ");
